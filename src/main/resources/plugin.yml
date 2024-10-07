@@ -1,0 +1,15 @@
+name: GiveHead
+version: '1.0'
+main: com.spectrasonic.givehead.Main
+api-version: '1.21'
+author: Spectrasonic
+commands:
+  givehead:
+    description: Gives you a player's head or shows the plugin version.
+    aliases: [gh]
+    usage: /<command> <playername> or /<command> version
+    permission: givehead.use
+permissions:
+  givehead.use:
+    description: Allows the player to use the /givehead command
+    default: true
