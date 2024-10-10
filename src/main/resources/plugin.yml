@@ -6,7 +6,7 @@ author: Spectrasonic
 commands:
   givehead:
     description: Gives you a player's head or shows the plugin version.
-    aliases: [gh]
+    aliases: [gh, skull]
     usage: /<command> <playername> or /<command> version
     permission: givehead.use
 permissions:
